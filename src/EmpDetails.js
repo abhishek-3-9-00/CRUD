@@ -21,7 +21,7 @@ export default function EmpDetails() {
     <h2>Contact Details</h2>
     <h5><b>Email</b>: {empdata.email}</h5>
     <h5><b>Phone No.</b> : {empdata.phone}</h5> 
-    <h5><b>Is Active</b> : {empdata.active}</h5> 
+    <h5><b>Is Active</b> : {empdata.active.toString()}</h5> 
     <br />
     <hr />
     <br />
