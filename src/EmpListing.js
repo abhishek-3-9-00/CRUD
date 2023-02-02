@@ -67,7 +67,7 @@ export default function EmpListing() {
                             <td>{item.name}</td>
                             <td>{item.email}</td>
                             <td>{item.phone}</td>
-                            <td>{item.active}</td>
+                            <td>{item.active.toString()}</td>
                             <td><a className="btn btn-success" onClick={()=>{loadEdit(item.id)}}>Edit</a>
                             <a className="btn btn-danger" onClick={()=>{RemoveFunc(item.id)}}>Remove</a>
                             <a className="btn btn-primary" onClick={()=>{loadDetail(item.id)}} >Details</a></td>

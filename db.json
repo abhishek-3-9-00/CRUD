@@ -1,13 +1,6 @@
 {
   "employee": [
     {
-      "id": 1,
-      "name": "john",
-      "email": "abhis@gmail.com",
-      "phone": "8582825193",
-      "active": true
-    },
-    {
       "id": 2,
       "name": "Abhishek Verma",
       "email": "rocksinghabhishek5@gmail.com",
@@ -15,11 +8,18 @@
       "active": true
     },
     {
+      "id": 3,
       "name": "hari",
       "email": "rwdknd",
       "phone": "854236",
-      "active": true,
-      "id": 3
+      "active": true
+    },
+    {
+      "name": "ds",
+      "email": "dddd",
+      "phone": "8545",
+      "active": false,
+      "id": 4
     }
   ]
 }
